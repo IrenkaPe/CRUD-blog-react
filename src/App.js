@@ -1,7 +1,24 @@
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/pages/Home/Home";
+import AddPost from "./components/pages/AddPost/AddPost";
+import PostPage from "./components/pages/PostPage/PostPage";
+import EditPost from "./components/pages/EditPost/EditPost";
+import About from "./components/pages/About/About";
+import NotFound from "./components/pages/NotFound/NotFound";
 function App() {
    return (
-    <div>Hello world</div>
+    <Router>
+      <main>
+        <Routes>
+          <Route path= '/' element= {<Home/>} />
+          <Route path= '/post/:id' element= {<PostPage/>} />
+          <Route path= '/post/add' element= {<AddPost/>} />
+          <Route path= '/post/edit/:id' element= {<EditPost/>} />
+          <Route path= '/about' element= {<About/>} />
+          <Route path='*' element={<NotFound />} />
+        </Routes>
+      </main>
+    </Router>
   );
 }
 

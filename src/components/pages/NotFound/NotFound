@@ -1,0 +1,9 @@
+const NotFound = () => {
+    return (
+        <>
+            <p> Strona której szukasz nie istnieje</p>
+        </>
+    )
+}
+
+export default NotFound
