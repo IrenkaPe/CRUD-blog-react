@@ -1,5 +1,6 @@
-//selectors
 
+//selectors
+export const getAllPosts = (state) => state.posts;
 // actions
 const createActionName = actionName => `app/posts/${actionName}`;
 
