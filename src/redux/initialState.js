@@ -1,7 +1,7 @@
 const initialState = {
     posts: [
         {
-            id: '1',
+            id:'1',
             title: 'Coding - My world',
             shortDescription: 'About my way to coding',
             content: 'lorem ipsum ...',
@@ -11,7 +11,7 @@ const initialState = {
 
         },
         {
-            id: '2',
+            id:'2',
             title: 'Coding - part 2',
             shortDescription: 'Part 2About my way to coding',
             content: 'lorem ipsum ...',
@@ -22,7 +22,7 @@ const initialState = {
 
         },
         {
-            id: '3',
+            id:'3',
             title: 'React app step by step',
             shortDescription: 'How to create react app',
             content:'lorem ipsum ...',
