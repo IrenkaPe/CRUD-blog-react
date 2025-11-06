@@ -43,7 +43,7 @@ A simple, responsive blog application built with React, Redux, and React Bootstr
    Build for Production:
    yarn build
 
-# This is a frontend-only application (no backend or database).
-# All data is stored in Redux state and resets on page refresh.
-# Designed as a learning project to practice React, Redux, and CRUD operations.
-Made with ❤️ by Irenka Pe
+- This is a frontend-only application (no backend or database).
+- All data is stored in Redux state and resets on page refresh.
+ Designed as a learning project to practice React, Redux, and CRUD operations.
+# Made with ❤️ by Irenka Pe
