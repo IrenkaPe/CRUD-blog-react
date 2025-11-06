@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# React Blog App (CRUD)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple, responsive blog application built with React, Redux, and React Bootstrap. This project demonstrates full CRUD (Create, Read, Update, Delete) functionality for blog posts, including form validation, routing, and state management.
 
-## Available Scripts
+✅ **Live Demo**: [https://crud-blog-react.vercel.app](https://crud-blog-react.vercel.app)
 
-In the project directory, you can run:
+![Blog App Preview](https://via.placeholder.com/800x400/e0e0e0/000000?text=Blog+App+Preview)
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- View a list of blog posts
+- Read full post details
+- Add new posts with automatic date and unique ID
+- Edit existing posts
+- Delete posts with confirmation modal
+- Responsive design (mobile & desktop friendly)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **React** – UI library
+- **React Router DOM v6** – client-side navigation
+- **Redux** – global state management
+- **React Bootstrap** – responsive UI components
+- **shortid** – unique ID generation
+- **Vercel** – deployment & hosting
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+### Prerequisites
+- Node.js (v16+)
+- npm or Yarn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/IrenkaPe/CRUD-blog-react.git
+2. Install dependencies:
+   cd CRUD-blog-react
+   yarn install
+3. Start the development server:
+   yarn start
+4. Open http://localhost:3000 in your browser.
+   Build for Production:
+   yarn build
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# This is a frontend-only application (no backend or database).
+# All data is stored in Redux state and resets on page refresh.
+# Designed as a learning project to practice React, Redux, and CRUD operations.
+Made with ❤️ by Irenka Pe
